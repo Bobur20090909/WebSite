@@ -30,3 +30,6 @@ con.addEventListener('mouseenter', function(){
 con.addEventListener('mouseleave', function(){
   autoRun = setInterval(autoClick, switch_delay)
 })
+
+
+document.body.dataset.preview = /fullcpgrid/.test(window.location.href);
