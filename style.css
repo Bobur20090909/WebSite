@@ -1,0 +1,206 @@
+body {
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    padding: 20px;
+}
+h1 {
+    color: burlywood;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    color: blueviolet;
+}
+.BMWXMIMG{
+    width: 50vw;
+}
+.BMWI5IMG{
+    width: 50vw;
+}
+.BMWM5F90IMG{
+    width: 50vw;
+}
+
+.img_BMWXM {
+    border: 15px solid rgb(255, 0, 0); 
+    /* float: left;  */
+    margin-right: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_BMWXM:hover {
+    transform: scale(0.85); 
+    border-color: rgb(0, 128, 255); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.img_BMWM5F90 {
+    border: 15px solid rgb(255, 0, 0); 
+    /* float: left;  */
+    margin-right: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_BMWM5F90:hover {
+    transform: scale(0.85); 
+    border-color: rgb(0, 128, 255); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.img_BMWi5 {
+    border: 15px solid rgb(255, 0, 0); 
+    /* float: left;  */
+    margin-right: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+.img_BMWi5:hover {
+    transform: scale(0.85); 
+    border-color: rgb(0, 128, 255); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.XM {
+    color: chartreuse;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+}
+
+ul li {
+    padding: 10px;
+    margin: 0 10px;
+    display: inline-block; 
+    background-color: #f0f0f0; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+
+ul li:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: burlywood; 
+}
+
+.benefits{
+    width: 90vw;
+    margin: 0 auto;
+}
+.cards-benefit{
+    display: flex;
+    justify-content: space-around;
+}
+.benefits h3{
+    text-align: center;
+    color: burlywood;
+}
+.imgXM{
+    display: flex;
+}
+.img_BMWi5{
+    display: flex;
+}
+.imgBMWM5F90{
+    display: flex;
+}
+.card-b img{
+    width: 30%;
+}
+.card-b{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: burlywood;
+}
+
+.link {
+    color: rgb(157, 0, 255); 
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: rgb(0, 157, 255);
+}
+
+.our-team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    height: 150vh;
+    background-color: burlywood;
+    margin: 20px auto;
+    padding: 15px;
+}
+.team-heading h2, .team-heading p{
+    text-align: center;
+}
+.team-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.team-cards div{
+    width: 33%;
+    margin: 0px;
+    height: 100%;
+}
+.team-card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.team-img{
+    border: 15px solid rgb(255, 0, 0); 
+    /* margin-right: 20px;  */
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    /* display: flex;
+    justify-content: center;
+    width: fit-content; */
+    box-sizing: border-box;
+}
+.team-img:hover{
+    transform: scale(0.85); 
+    border-color: rgb(0, 128, 255); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
