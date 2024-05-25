@@ -180,14 +180,27 @@ ul li:hover {
     margin: 0px;
     height: 100%;
 }
-.team-card-text{
+
+.team-card-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    background-color: rgb(21, 110, 103);
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    margin-top: 20px;
 }
+
+.team-card-text:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(41, 171, 164);
+}
+
+
 .team-img{
     border: 15px solid rgb(255, 0, 0); 
     /* margin-right: 20px;  */
